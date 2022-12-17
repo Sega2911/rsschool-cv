@@ -1,4 +1,20 @@
-@font-face {
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>BAEV SERGEI ALEKSEEVICH</title>
+        <style>
+            .zagolovki { font-size: bold;}
+            .border1 { border: 6px solid pink; padding: 10; margin: 20;}
+            .border2 { border: 6px solid lightblue; padding: 10; margin: 20;}
+            .ct { text-align: center;}
+            .podcherk { text-decoration: underline;}
+            .container { max-width: 1440px;
+            margin: 0 auto;}
+            .nav-list {
+  display: flex; justify-content: flex-end;
+  align-items: center;}
+            @font-face {
                 font-family: IBMPlexSans;
                 src: url(rsschool-cv/assets/fonts/IBMPlexSans-Bold.ttf);
                 font-style: normal;
@@ -6,3 +22,18 @@
               body { display: flex;
               flex-direction: column;
               justify-content: space-between;}
+html {
+  scroll-behavior: smooth; 
+}
+.nav-list {
+  list-style: none;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+.nav-link {
+  transition: .3s;
+}
+
+</style>
