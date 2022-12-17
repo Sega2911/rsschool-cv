@@ -37,6 +37,24 @@
 .nav-link {
   transition: .3s;
 }
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+body {
+  font-family: 'IBMPlexSans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #311313;
+}
+.section-title {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #600e09e0;}
 </style>
     </head>
     <body>
@@ -45,13 +63,13 @@
              <div class="container">
              <nav class="nav">
                 <ul class="nav-list">
-                  <li class="nav-item"><a href="#Контакты" class="nav-link">#Контакты</a></li>
+                  <li class="nav-item"><a href="#Контакты" class="nav-link">Контакты</a></li>
                   <li class="nav-item"><a href="#О себе" class="nav-link">О себе</a></li>
-                  <li class="nav-item"><a href="#Навыки" class="nav-link">#Навыки</a></li>
-                  <li class="nav-item"><a href="#Код" сlass="nav-link">#Код</a></li>
-                  <li class="nav-item"><a href="#Опыт" class="nav-link">#Опыт</a></li>
-                  <li class="nav-item"><a href="#Образование" class="nav-link">#Образование</a></li>
-                  <li class="nav-item"><a href="#English" сlass="nav-link">#English</a></li>
+                  <li class="nav-item"><a href="#Навыки" class="nav-link">Навыки</a></li>
+                  <li class="nav-item"><a href="#Код" сlass="nav-link">Код</a></li>
+                  <li class="nav-item"><a href="#Опыт" class="nav-link">Опыт</a></li>
+                  <li class="nav-item"><a href="#Образование" class="nav-link">Образование</a></li>
+                  <li class="nav-item"><a href="#English" сlass="nav-link">English</a></li>
                 </ul>
               </nav>
             </div>
@@ -60,18 +78,24 @@
        
             <div class="container main-container">
                 <section class="section" id="Профиль"> <h1> Баев Сергей Алексеевич</h1></section>
-                <section class="section" id="#Контакты">  <h2>#Контакты</h2></section>
+                <section class="section" id="#Контакты">  <h2>Контакты</h2></section>
                     <section class="section" id="О себе"><h2>О себе</h2></section>
-                        <section class="section" id="#Навыки"><h2>#Навыки</h2></section>
+                        <section class="section" id="#Навыки"><h2>Навыки</h2></section>
                             <section class="section" id="#Код"><h2>Код</h2></section>
                                 <section class="section" id="#Опыт"><h2>Опыт</h2></section>
-                                    <section class="section" id="#Образование"><h2>#Образование</h2></section>
-                                        <section class="section" id="#English"><h2>#English</h2></section>
+                                    <section class="section" id="#Образование"><h2>Образование</h2></section>
+                                        <section class="section" id="#English"><h2>English</h2></section>
+                                      
             </div>
         </main>
         <footer class="border1">
      
-            <div class="container"></div>
+            <div class="container">
+                <p href="https://github.com/Sega2911">Мой GitHub</p>
+                <p>Created in 2022 year</p>
+                <p href="https://rs.school/"> Лучшая школа</p>
+                img scr: url(rsschool-cv/assets/png/logo-rsschool3.png)
+            </div>
         </footer>
 
     </body>
