@@ -1,1 +1,8 @@
-# that a second file for exesirse
+@font-face {
+                font-family: IBMPlexSans;
+                src: url(rsschool-cv/assets/fonts/IBMPlexSans-Bold.ttf);
+                font-style: normal;
+                font-weight: normal;  }
+              body { display: flex;
+              flex-direction: column;
+              justify-content: space-between;}

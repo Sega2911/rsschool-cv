@@ -9,6 +9,11 @@
             .border2 { border: 6px solid lightblue; padding: 10; margin: 20;}
             .ct { text-align: center;}
             .podcherk { text-decoration: underline;}
+            .container { max-width: 1440px;
+            margin: 0 auto;}
+            .nav-list {
+  display: flex; justify-content: flex-end;
+  align-items: center;}
             @font-face {
                 font-family: IBMPlexSans;
                 src: url(rsschool-cv/assets/fonts/IBMPlexSans-Bold.ttf);
@@ -22,12 +27,26 @@
     <body>
         <header class="border1"> 
             border: 3px solid black
-            </header>
-        <main class="border2">
+             <div class="container"></div>
+             <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#Контакты" class="nav-link">#Контакты</a></li>
+                  <li class="nav-item"><a href="#О себе" class="nav-link">О себе</a></li>
+                  <li class="nav-item"><a href="#Навыки" class="nav-link">#Навыки</a></li>
+                  <li class="nav-item"><a href="#Код" сlass="nav-link">#Код</a></li>
+                  <li class="nav-item"><a href="#Опыт" class="nav-link">#Опыт</a></li>
+                  <li class="nav-item"><a href="#Образование" class="nav-link">#Образование</a></li>
+                  <li class="nav-item"><a href="#English" сlass="nav-link">#English</a></li>
+                </ul>
+              </nav>
+             </header>
+           <main class="border2">
             border: 3px solid black
+            <div class="container"></div>
         </main>
         <footer class="border1">
             border: 3px solid black
+            <div class="container"></div>
         </footer>
 
     </body>
