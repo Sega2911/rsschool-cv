@@ -14,6 +14,8 @@
             .nav-list {
   display: flex; justify-content: flex-end;
   align-items: center;}
+  .main-conteiner { display: flex; flex-wrap: wrap;}
+  .section { width: 50%;}
             @font-face {
                 font-family: IBMPlexSans;
                 src: url(rsschool-cv/assets/fonts/IBMPlexSans-Bold.ttf);
@@ -22,7 +24,7 @@
               body { display: flex;
               flex-direction: column;
               justify-content: space-between;}
-html {
+              html {
   scroll-behavior: smooth; 
 }
 .nav-list {
@@ -35,5 +37,42 @@ html {
 .nav-link {
   transition: .3s;
 }
-
 </style>
+    </head>
+    <body>
+        <header class="border1"> 
+          
+             <div class="container">
+             <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#Контакты" class="nav-link">#Контакты</a></li>
+                  <li class="nav-item"><a href="#О себе" class="nav-link">О себе</a></li>
+                  <li class="nav-item"><a href="#Навыки" class="nav-link">#Навыки</a></li>
+                  <li class="nav-item"><a href="#Код" сlass="nav-link">#Код</a></li>
+                  <li class="nav-item"><a href="#Опыт" class="nav-link">#Опыт</a></li>
+                  <li class="nav-item"><a href="#Образование" class="nav-link">#Образование</a></li>
+                  <li class="nav-item"><a href="#English" сlass="nav-link">#English</a></li>
+                </ul>
+              </nav>
+            </div>
+             </header>
+           <main class="border2">
+       
+            <div class="container main-container">
+                <section class="section" id="Профиль"> <h1> Баев Сергей Алексеевич</h1></section>
+                <section class="section" id="#Контакты">  <h2>#Контакты</h2></section>
+                    <section class="section" id="О себе"><h2>О себе</h2></section>
+                        <section class="section" id="#Навыки"><h2>#Навыки</h2></section>
+                            <section class="section" id="#Код"><h2>Код</h2></section>
+                                <section class="section" id="#Опыт"><h2>Опыт</h2></section>
+                                    <section class="section" id="#Образование"><h2>#Образование</h2></section>
+                                        <section class="section" id="#English"><h2>#English</h2></section>
+            </div>
+        </main>
+        <footer class="border1">
+     
+            <div class="container"></div>
+        </footer>
+
+    </body>
+</html>
