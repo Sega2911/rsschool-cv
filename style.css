@@ -1,19 +1,17 @@
-<!DOCTYPE html>
-<html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <title>BAEV SERGEI ALEKSEEVICH</title>
-        <style>
+<style>
             .zagolovki { font-size: bold;}
-            .border1 { border: 6px solid pink; padding: 10; margin: 20;}
-            .border2 { border: 6px solid lightblue; padding: 10; margin: 20;}
+            .border1 { border: 6px solid rgb(2, 82, 15); padding: 10; margin: 20;}
+            .border2 { border: 6px solid rgb(0, 0, 0); padding: 10; margin: 20;}
             .ct { text-align: center;}
             .podcherk { text-decoration: underline;}
             .container { max-width: 1440px;
             margin: 0 auto;}
+            .rightimg { float: right; margin: 5 5 5 5; display: block;margin-left: auto;margin-right: auto;}
             .nav-list {
   display: flex; justify-content: flex-end;
   align-items: center;}
+  .a {text-decoration: none;
+  color: #000;}
   .main-conteiner { display: flex; flex-wrap: wrap;}
   .section { width: 50%;}
             @font-face {
@@ -55,48 +53,9 @@ body {
   text-transform: uppercase;
   letter-spacing: 5px;
   color: #600e09e0;}
+  .green{ background-image:url(assets/jpg/трава.jpg);
+  background-color: green;}
+  .h1 {background-color: white;}
+  .h2 {background-color: white;}
+  .wtext { background-color: white;}
 </style>
-    </head>
-    <body>
-        <header class="border1"> 
-          
-             <div class="container">
-             <nav class="nav">
-                <ul class="nav-list">
-                  <li class="nav-item"><a href="#Контакты" class="nav-link">Контакты</a></li>
-                  <li class="nav-item"><a href="#О себе" class="nav-link">О себе</a></li>
-                  <li class="nav-item"><a href="#Навыки" class="nav-link">Навыки</a></li>
-                  <li class="nav-item"><a href="#Код" сlass="nav-link">Код</a></li>
-                  <li class="nav-item"><a href="#Опыт" class="nav-link">Опыт</a></li>
-                  <li class="nav-item"><a href="#Образование" class="nav-link">Образование</a></li>
-                  <li class="nav-item"><a href="#English" сlass="nav-link">English</a></li>
-                </ul>
-              </nav>
-            </div>
-             </header>
-           <main class="border2">
-       
-            <div class="container main-container">
-                <section class="section" id="Профиль"> <h1> Баев Сергей Алексеевич</h1></section>
-                <section class="section" id="#Контакты">  <h2>Контакты</h2></section>
-                    <section class="section" id="О себе"><h2>О себе</h2></section>
-                        <section class="section" id="#Навыки"><h2>Навыки</h2></section>
-                            <section class="section" id="#Код"><h2>Код</h2></section>
-                                <section class="section" id="#Опыт"><h2>Опыт</h2></section>
-                                    <section class="section" id="#Образование"><h2>Образование</h2></section>
-                                        <section class="section" id="#English"><h2>English</h2></section>
-                                      
-            </div>
-        </main>
-        <footer class="border1">
-     
-            <div class="container">
-                <p href="https://github.com/Sega2911">Мой GitHub</p>
-                <p>Created in 2022 year</p>
-                <p href="https://rs.school/"> Лучшая школа</p>
-                img scr: url(rsschool-cv/assets/png/logo-rsschool3.png)
-            </div>
-        </footer>
-
-    </body>
-</html>
